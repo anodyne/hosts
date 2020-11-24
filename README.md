@@ -5,52 +5,49 @@ User contributed notes on various web host that play well or don't play with wit
 ## PHP Versions by Host
 <http://phpversions.info/shared-hosting/>
 
-## Hosts that play nice with Nova 2
+## Nova 2
+
+### Hosts that play nice
 
 These guys work well with Nova 2 right out of the box.
 
-- [A Small Orange](http://asmallorange.com)
-- [ArcusTech](http://arcustech.com)
+- [A Small Orange](https://asmallorange.com/)
+- [ArcusTech](https://www.arcustech.com/)
 - [AWS](https://aws.amazon.com/)
 - [Azure](https://azure.microsoft.com/)
 - [Digital Ocean](https://www.digitalocean.com/) ([One-Click LAMP Stack](https://www.digitalocean.com/features/one-click-apps/))
-- [Digital Pacific](http://www.digitalpacific.com.au/hosting/) - Sydney, Australia
-- [DreamHost](https://www.dreamhost.com/) - [server tweaks needed](https://github.com/statamic/hosts/wiki/Dreamhost-tweaks)
-- [fortrabbit](https://www.fortrabbit.com/) - US Virgina & EU Ireland, with [install guide for Statamic 3](https://help.fortrabbit.com/install-statamic-3)
+- [DreamHost](https://www.dreamhost.com/) - [server tweaks needed](https://github.com/anodyne/hosts/wiki/Dreamhost-tweaks)
 - [Google Cloud Platform](https://cloud.google.com/)
 - [HostGator](http://www.hostgator.com/)
-- [Internethelden](https://internethelden.io/) - Germany
-- [Laravel Forge](https://forge.laravel.com/) + [Linode](http://linode.com)
+- [Laravel Forge](https://forge.laravel.com/) + [Linode](https://www.linode.com/)
 - [Laravel Forge](https://forge.laravel.com/) + [Digital Ocean](https://www.digitalocean.com)
-- [Media Temple (dv)](http://mediatemple.net)
-- [Media Temple (grid)](http://mediatemple.net)
-- [Metanet](http://www.metanet.ch) - Switzerland
-- [OVH](https://www.ovh.com/fr/index.xml) is a nice web host with 3 main data centers in northeastern France and one near Montreal (Quebec, Canada). It offers PHP 5.5 and 5.4.
-- [Panthur](http://www.panthur.com.au/) - Sydney, Australia
-- [Ploi](https://ploi.io) + [Linode](http://linode.com)
+- [Media Temple (dv)](https://mediatemple.net/)
+- [Media Temple (grid)](https://mediatemple.net/)
+- [Ploi](https://ploi.io) + [Linode](https://www.linode.com/)
 - [Ploi](https://ploi.io) + [Digital Ocean](https://www.digitalocean.com)
-- [ServInt](https://www.servint.net/)
-- [Site5](http://www.site5.com/)
-- [WebFaction](https://www.webfaction.com/)
+- [Site5](https://www.site5.com/)
 
-## Hosts that don't play nice with Nova 2
+### Hosts that don't play nice
 
-You should probably avoid these. It doesn't mean it's not possible, but will likely require support tickets to enabled PHP modules like `mcrypt`, `mbstring`, and so on.
+You should probably avoid these. It doesn't mean it's not possible, but will likely require support tickets to enable PHP modules like `mcrypt`, `mbstring`, and so on.
 
-- [Go Daddy](http://godaddy.com) - doesn't meet server requirements
-- [NameCheap](http://namecheap.com)
-- [Rackspace Cloud](http://www.rackspace.com/cloud/) - issues with out-of-sync file timestamps and permissions
-- [1and1.com](http://1and1.com) - please see [issue raised](https://github.com/statamic/hosts/issues/12) for more details.
+- [Go Daddy](https://godaddy.com) - doesn't meet server requirements
+- [NameCheap](https://namecheap.com)
+- [Rackspace Cloud](https://www.rackspace.com/cloud/) - issues with out-of-sync file timestamps and permissions
+- [1and1.com](https://1and1.com) - please see [issue raised](https://github.com/statamic/hosts/issues/12) for more details.
 
-## Hosts that play nice with Nova 3
+## Nova 3
 
-## Hosts that don't play nice with Nova 3
+### Hosts that play nice
+
+### Hosts that don't play nice
 
 ## Standard Dev Environments
 
-Wide-spread dev environments that work well (e.g. MAMP)
+Wide-spread dev environments that work well
 
-- [MAMP 3](http://www.mamp.info/en/) (*MAMP 2 works as well*)
+- [Docker](https://www.docker.com/) - Both versions of Nova come with a full Docker setup
+- [MAMP 3](https://www.mamp.info/en/)
 - [Laravel Valet](https://laravel.com/docs/master/valet)
 - [Laravel Homestead](https://laravel.com/docs/homestead) - Works well for Windows
 - [Scotch Box](https://github.com/scotch-io/scotch-box) - 'A Vagrant LAMP Stack That Just Works'
