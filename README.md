@@ -46,7 +46,7 @@ You should probably avoid these. It doesn't mean it's not possible, but will lik
 
 <details><summary>Paid hosts that play nice</summary><p>
   
-These guys work well with Nova 2 right out of the box.
+These guys work well with Nova 3 right out of the box.
   
 - [A Small Orange](https://asmallorange.com/)
 - [ArcusTech](https://www.arcustech.com/)
