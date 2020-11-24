@@ -9,6 +9,8 @@ User contributed notes on various web host that play well or don't play with wit
 
 <details><summary>Paid hosts that play nice</summary><p>
   
+These guys work well with Nova 2 right out of the box.
+  
 - [A Small Orange](https://asmallorange.com/)
 - [ArcusTech](https://www.arcustech.com/)
 - [AWS](https://aws.amazon.com/)
@@ -40,10 +42,12 @@ You should probably avoid these. It doesn't mean it's not possible, but will lik
   
 </p></details>
 
-### Hosts that play nice
+## Nova 3
 
+<details><summary>Paid hosts that play nice</summary><p>
+  
 These guys work well with Nova 2 right out of the box.
-
+  
 - [A Small Orange](https://asmallorange.com/)
 - [ArcusTech](https://www.arcustech.com/)
 - [AWS](https://aws.amazon.com/)
@@ -60,20 +64,20 @@ These guys work well with Nova 2 right out of the box.
 - [Ploi](https://ploi.io) + [Digital Ocean](https://www.digitalocean.com)
 - [Site5](https://www.site5.com/)
 
-### Hosts that don't play nice
+</p></details>
+
+<details><summary>Free hosts that play nice</summary></details>
+
+<details><summary>Hosts that don't play nice</summary><p>
 
 You should probably avoid these. It doesn't mean it's not possible, but will likely require support tickets to enable PHP modules like `mcrypt`, `mbstring`, and so on.
-
+  
 - [Go Daddy](https://godaddy.com) - doesn't meet server requirements
 - [NameCheap](https://namecheap.com)
 - [Rackspace Cloud](https://www.rackspace.com/cloud/) - issues with out-of-sync file timestamps and permissions
 - [1and1.com](https://1and1.com)
-
-## Nova 3
-
-### Hosts that play nice
-
-### Hosts that don't play nice
+  
+</p></details>
 
 ## Standard Dev Environments
 
