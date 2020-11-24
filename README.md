@@ -7,10 +7,8 @@ User contributed notes on various web host that play well or don't play with wit
 
 ## Nova 2
 
-<details><summary>Paid hosts that play nice</summary></details>
-
-<details><summary>Free hosts that play nice</summary>
-
+<details><summary>Paid hosts that play nice</summary><p>
+  
 - [A Small Orange](https://asmallorange.com/)
 - [ArcusTech](https://www.arcustech.com/)
 - [AWS](https://aws.amazon.com/)
@@ -27,9 +25,20 @@ User contributed notes on various web host that play well or don't play with wit
 - [Ploi](https://ploi.io) + [Digital Ocean](https://www.digitalocean.com)
 - [Site5](https://www.site5.com/)
 
-</details>
+</p></details>
 
-<details><summary>Hosts that don't play nice</summary></details>
+<details><summary>Free hosts that play nice</summary></details>
+
+<details><summary>Hosts that don't play nice</summary><p>
+
+You should probably avoid these. It doesn't mean it's not possible, but will likely require support tickets to enable PHP modules like `mcrypt`, `mbstring`, and so on.
+  
+- [Go Daddy](https://godaddy.com) - doesn't meet server requirements
+- [NameCheap](https://namecheap.com)
+- [Rackspace Cloud](https://www.rackspace.com/cloud/) - issues with out-of-sync file timestamps and permissions
+- [1and1.com](https://1and1.com)
+  
+</p></details>
 
 ### Hosts that play nice
 
