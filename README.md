@@ -7,6 +7,30 @@ User contributed notes on various web host that play well or don't play with wit
 
 ## Nova 2
 
+<details><summary>Paid hosts that play nice</summary></details>
+
+<details><summary>Free hosts that play nice</summary>
+
+- [A Small Orange](https://asmallorange.com/)
+- [ArcusTech](https://www.arcustech.com/)
+- [AWS](https://aws.amazon.com/)
+- [Azure](https://azure.microsoft.com/)
+- [Digital Ocean](https://www.digitalocean.com/) ([One-Click LAMP Stack](https://www.digitalocean.com/features/one-click-apps/))
+- [DreamHost](https://www.dreamhost.com/) - [server tweaks needed](https://github.com/anodyne/hosts/wiki/Dreamhost-tweaks)
+- [Google Cloud Platform](https://cloud.google.com/)
+- [HostGator](http://www.hostgator.com/)
+- [Laravel Forge](https://forge.laravel.com/) + [Linode](https://www.linode.com/)
+- [Laravel Forge](https://forge.laravel.com/) + [Digital Ocean](https://www.digitalocean.com)
+- [Media Temple (dv)](https://mediatemple.net/)
+- [Media Temple (grid)](https://mediatemple.net/)
+- [Ploi](https://ploi.io) + [Linode](https://www.linode.com/)
+- [Ploi](https://ploi.io) + [Digital Ocean](https://www.digitalocean.com)
+- [Site5](https://www.site5.com/)
+
+</details>
+
+<details><summary>Hosts that don't play nice</summary></details>
+
 ### Hosts that play nice
 
 These guys work well with Nova 2 right out of the box.
@@ -34,7 +58,7 @@ You should probably avoid these. It doesn't mean it's not possible, but will lik
 - [Go Daddy](https://godaddy.com) - doesn't meet server requirements
 - [NameCheap](https://namecheap.com)
 - [Rackspace Cloud](https://www.rackspace.com/cloud/) - issues with out-of-sync file timestamps and permissions
-- [1and1.com](https://1and1.com) - please see [issue raised](https://github.com/statamic/hosts/issues/12) for more details.
+- [1and1.com](https://1and1.com)
 
 ## Nova 3
 
